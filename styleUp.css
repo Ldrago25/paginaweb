@@ -1,0 +1,22 @@
+.bajo {
+    margin-top: 210px;
+    color: rgb(225, 236, 227);
+}
+
+.primero {
+    background-color: rgb(3, 3, 46);
+    height: 100vh;
+    color: rgb(225, 236, 227);
+}
+
+.imagen {
+    height: 100px;
+}
+
+.tas {
+    margin-top: 100px;
+}
+
+body {
+    display: flex;
+}

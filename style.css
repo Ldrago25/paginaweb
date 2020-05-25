@@ -1,0 +1,454 @@
+@media screen and (max-width:768px) {
+    .contengo {
+        width: 100%;
+    }
+    .primero {
+        display: none;
+        background-color: grey;
+    }
+    .bajo {
+        flex-direction: row;
+    }
+    nav {
+        display: block !important;
+    }
+    .segundo {
+        width: 90%;
+        height: 90%;
+        margin: 1rem auto;
+    }
+    .contact-information {
+        width: 70%;
+        margin: 30%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .contengo {
+        width: 85%;
+        margin-left: 15%;
+    }
+    .primero {
+        padding: 2rem 1rem;
+        display: flex;
+    }
+    .bajo {
+        margin-top: 7rem !important;
+        flex-direction: column;
+    }
+    nav {
+        display: none !important;
+    }
+    .segundo {
+        height: 100%;
+        width: 40%;
+        margin: 0 0 0 auto;
+    }
+    .contact-information {
+        width: 60%;
+        margin-left: 40%;
+    }
+}
+
+.imgs {
+    display: block;
+    width: 80%;
+    margin: 0 auto 5rem auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-header {
+    position: relative;
+    padding: 0.5rem;
+}
+
+.navbar-header h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.navbar-header button {
+    display: block;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 10;
+}
+
+nav {
+    flex-direction: column;
+    background-color: rgb(3, 3, 46);
+    color: rgb(225, 236, 227);
+}
+
+.contengo {
+    padding: 0;
+}
+
+.welcome {
+    font: 2.6rem;
+}
+
+.bicho {
+    font-size: 2rem;
+}
+
+.primero {
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    width: 15%;
+    background-color: rgb(3, 3, 46);
+    color: rgb(225, 236, 227);
+}
+
+#presentacion {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("business.jpg");
+}
+
+.segundo {
+    padding: 1rem;
+    background-color: rgba(198, 108, 74, 0.7);
+    color: rgb(225, 236, 227);
+}
+
+.fila {
+    height: 70px;
+    background-color: rgb(5, 5, 82);
+}
+
+.filatwo {
+    height: 100px;
+}
+
+.colu {
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    display: inline-block;
+    background-color: rgb(145, 60, 51);
+    margin: 0 0 0 auto;
+}
+
+.logo {
+    color: rgb(225, 236, 227);
+    margin-top: 20px;
+    color: white;
+}
+
+.bajo {
+    display: flex;
+    margin-top: 2rem;
+    color: rgb(225, 236, 227);
+}
+
+.bajo a {
+    color: black;
+}
+
+.texto {
+    text-align: center;
+}
+
+.marg {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    width: 100%
+}
+
+.but {
+    width: 70px;
+    height: 50px;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(3, 3, 46);
+}
+
+.hambur button {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: rgb(145, 60, 51);
+    color: white;
+}
+
+.funcion {
+    text-align: center;
+    width: 50%;
+    height: 70px;
+    margin-top: 40px;
+}
+
+.boto {
+    border: rgb(145, 60, 51);
+}
+
+.sign {
+    border: rgb(145, 60, 51);
+    background-color: rgb(145, 60, 51);
+}
+
+.bajito {
+    margin-top: 100px;
+}
+
+.about-us {
+    display: block;
+}
+
+.us {
+    color: rgb(145, 60, 51);
+}
+
+.botosx {
+    margin-top: 40px;
+    margin-left: -50px;
+    border: rgb(145, 60, 51);
+    background-color: rgb(145, 60, 51);
+}
+
+.services {
+    overflow: hidden;
+}
+
+.baja {
+    margin-top: 76px;
+    height: 100vh;
+    background-color: rgb(3, 3, 46);
+}
+
+.about-jumbotron {
+    background-color: ivory;
+}
+
+.contactos {
+    border-radius: 0.5rem;
+}
+
+.botonser {
+    margin-top: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fonta {
+    color: aliceblue;
+}
+
+.atajo {
+    display: flex;
+}
+
+.imass {
+    margin-left: 5px;
+}
+
+.empleado {
+    margin-left: 400px;
+}
+
+.empresario {
+    color: rgb(198, 108, 74);
+    margin-left: 20px;
+}
+
+.iconos {
+    display: flex;
+}
+
+.iconep {
+    margin-left: 100px;
+}
+
+.iconen {
+    margin-left: 330px;
+}
+
+.imass {
+    margin-left: 100px;
+}
+
+.arreglar {
+    position: relative;
+}
+
+.margins {
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.colores {
+    color: rgb(3, 3, 46);
+    margin-top: 1rem;
+}
+
+.colore {
+    margin-top: 1rem;
+    color: rgb(3, 3, 46);
+}
+
+.positis {
+    margin-left: 50px;
+    z-index: 2000px;
+}
+
+.cuadro-imagen {
+    top: 20%;
+    right: 5%;
+    padding-top: 30%;
+    width: 30%;
+    background-image: url("./cafecito.jpg");
+    background-size: cover;
+    z-index: 2;
+}
+
+.cuadro-imagen,
+.cuadro-azul,
+.cuadro-naranja {
+    position: absolute;
+}
+
+.cuadro-naranja {
+    background-color: orange;
+    top: 25%;
+    right: 10%;
+    padding-top: calc(35%);
+    width: calc(35%);
+    z-index: 1;
+}
+
+.cuadro-azul {
+    background-color: rgb(5, 5, 82);
+    top: 15%;
+    right: 10%;
+    width: 30%;
+    padding-top: 30%;
+    z-index: 0;
+}
+
+.positi {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(3, 3, 46);
+}
+
+.contenido {
+    width: 50%;
+}
+
+.lead {
+    color: black;
+}
+
+.crown {
+    color: rgb(3, 3, 46);
+}
+
+.about-footer {
+    padding: 0.5rem;
+    /*    background-image: url("./cafe2.jpg");*/
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 1rem;
+}
+
+.botosxa {
+    margin-left: 100px;
+    border: rgb(145, 60, 51);
+    background-color: rgb(145, 60, 51);
+}
+
+.Servicios {
+    overflow: hidden;
+    background-color: rgb(198, 108, 74);
+}
+
+.colorservi {
+    padding: 1rem;
+    width: 80%;
+    overflow: hidden;
+    background-color: rgb(32, 39, 57);
+    margin: 0 auto;
+}
+
+.use {
+    color: white;
+}
+
+.fontas {
+    color: aliceblue;
+    margin-left: 0px;
+}
+
+.fontax {
+    color: aliceblue;
+    margin-left: 0px;
+}
+
+.clasesx {
+    margin-left: 0px;
+}
+
+.service-row {
+    padding: 0 2rem;
+    color: rgba(248, 252, 255, 0.747);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.probarcolor {
+    width: 5%;
+    height: 1%;
+}
+
+.titulo {
+    margin-top: 5%;
+}
+
+.contactos {
+    background-color: ivory;
+}
+
+.contact-row {
+    width: 70%;
+    text-align: center;
+}
+
+.conteo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.insta {
+    color: rgb(198, 108, 74);
+}
+
+.contact-information {
+    margin: 1rem auto;
+}
+
+.contact-information span {
+    margin: 0 1rem;
+}
